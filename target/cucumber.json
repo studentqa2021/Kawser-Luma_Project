@@ -1,0 +1,115 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "As a city bank Luma application user, login should success with valid credential",
+        "description": "",
+        "id": "login-function-test;as-a-city-bank-luma-application-user--login-should-success-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8119686799,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "go to application URL",
+            "match": {
+              "location": "Stepdef.getSetup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2002686099,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the login button",
+            "match": {
+              "location": "Stepdef.clickLoginBtn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267948901,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Put username",
+            "match": {
+              "location": "Stepdef.putUsername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159097100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Put password",
+            "match": {
+              "location": "Stepdef.addPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1510049200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click sign in button",
+            "match": {
+              "location": "Stepdef.clickSignInBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4077454000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Validation login status",
+            "match": {
+              "location": "Stepdef.validation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@S29-10"
+          }
+        ]
+      }
+    ],
+    "name": "Login function test",
+    "description": "",
+    "id": "login-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Login%20Test.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
